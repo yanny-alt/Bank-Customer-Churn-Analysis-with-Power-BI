@@ -1,5 +1,6 @@
 # Customer Churn Analysis for a Bank
 
+![](https://github.com/yanny-alt/Banking-Customer-Retention-Analysis/blob/main/Images/nathan-dumlao-lvWw_G8tKsk-unsplash.jpg)
 ## Overview
 
 **What is Customer Churn?**  
@@ -19,6 +20,7 @@ This analysis aims to discover various factors contributing to the increased cus
 - **Source**: Commercial bank
 - **Format**: CSV file with 10,000 rows
 - **Anonymity**: All personally identifiable information has been removed to protect customer privacy.
+- The Dataset for the project can be sourced from [here](https://github.com/yanny-alt/Banking-Customer-Retention-Analysis/blob/main/Data%20Sources/Bank%20Customer%20Data.csv)
 
 ### Data Dictionary
 
@@ -60,12 +62,17 @@ This analysis aims to discover various factors contributing to the increased cus
 
 5. **Data Modeling**
    - **Relationships**: Established relationships between tables with correct cardinality.
+   ![](https://github.com/yanny-alt/Banking-Customer-Retention-Analysis/blob/main/Images/Bank%20Customer%20Data%20Model.png)
 
 6. **Visualization — Report**
    - Created DAX measures for key metrics:
      - **Customers**: Total number of unique customers.
      - **Customers Churned**: Total number of churned customers.
      - **Churn Rate**: Percentage of customers who have churned.
+     
+   Below is the report of the analysis:
+
+![](https://github.com/yanny-alt/Banking-Customer-Retention-Analysis/blob/main/Images/Bank%20Customer%20Churn%20and%20Retention%20Report.png)
 
 7. **Insights**
    - **Gender**: Churn rate for male customers is 65% but overall male churn rate is 25%.
@@ -88,7 +95,10 @@ This Power BI analysis went through major data analysis processes, from raw data
 
 ### Dashboard Screenshot
 
-![Dashboard Screenshot](link_to_dashboard_screenshot)
+![Dashboard Screenshot](https://github.com/yanny-alt/Banking-Customer-Retention-Analysis/blob/main/Images/Bank%20Customer%20Churn%20and%20Retention%20Report.png)
+
+# Report
+The link to the interactive report is [here](https://app.powerbi.com/view?r=eyJrIjoiNzI1OWEyNDUtNTExZS00N2IyLThjMjItZDEwNGRlMjkwODgwIiwidCI6IjQ5MWM2ZTNhLTA3MjItNDhmMi1iMDFhLWFhMzliODc0MGYxNiJ9)
 
 ## Executive Summary
 
